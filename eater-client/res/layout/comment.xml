@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/cm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="回到上一页~玛丽玛丽红~"
+    />
+    <ImageView
+    android:id="@+id/cm_imageview"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    
+    />
+    <TextView
+    android:id="@+id/cm_textview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    />
+    <ListView
+    android:id="@+id/cm_listview"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    
+    />
+    
+
+</LinearLayout>
